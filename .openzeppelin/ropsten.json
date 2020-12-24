@@ -1,0 +1,205 @@
+{
+  "contracts": {
+    "DYCOIN": {
+      "address": "0x1C481562Ca7e016E633a38399a28D03dc9308295",
+      "constructorCode": "608060405234801561001057600080fd5b50613b47806100206000396000f3fe",
+      "bodyBytecodeHash": "2a81947ce10dc532d018c523bcd6e46444cba6781a120b44a3fdd59133141353",
+      "localBytecodeHash": "c41f13b419b8e4e091ce3ca57958e047110a5c135bb9e1e78422f4fa1f48b406",
+      "deployedBytecodeHash": "c41f13b419b8e4e091ce3ca57958e047110a5c135bb9e1e78422f4fa1f48b406",
+      "types": {
+        "t_string": {
+          "id": "t_string",
+          "kind": "elementary",
+          "label": "string"
+        },
+        "t_uint8": {
+          "id": "t_uint8",
+          "kind": "elementary",
+          "label": "uint8"
+        },
+        "t_address": {
+          "id": "t_address",
+          "kind": "elementary",
+          "label": "address"
+        },
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_mapping<t_uint256>": {
+          "id": "t_mapping<t_uint256>",
+          "valueType": "t_uint256",
+          "label": "mapping(key => uint256)",
+          "kind": "mapping"
+        },
+        "t_mapping<t_bool>": {
+          "id": "t_mapping<t_bool>",
+          "valueType": "t_bool",
+          "label": "mapping(key => bool)",
+          "kind": "mapping"
+        }
+      },
+      "storage": [
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "name",
+          "astId": 7,
+          "type": "t_string",
+          "src": "349:18:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "symbol",
+          "astId": 9,
+          "type": "t_string",
+          "src": "374:20:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "decimals",
+          "astId": 11,
+          "type": "t_uint8",
+          "src": "401:21:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "currency",
+          "astId": 13,
+          "type": "t_string",
+          "src": "429:22:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "masterMinter",
+          "astId": 15,
+          "type": "t_address",
+          "src": "458:27:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "initialized",
+          "astId": 17,
+          "type": "t_bool",
+          "src": "492:25:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "totalSupply",
+          "astId": 19,
+          "type": "t_uint256",
+          "src": "524:28:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "blacklister",
+          "astId": 21,
+          "type": "t_address",
+          "src": "561:26:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "pauser",
+          "astId": 23,
+          "type": "t_address",
+          "src": "594:21:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "_owner",
+          "astId": 25,
+          "type": "t_address",
+          "src": "622:22:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "_paused",
+          "astId": 27,
+          "type": "t_bool",
+          "src": "651:19:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "balances",
+          "astId": 31,
+          "type": "t_mapping<t_uint256>",
+          "src": "679:45:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "allowed",
+          "astId": 37,
+          "type": "t_mapping<t_uint256>",
+          "src": "731:64:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "minters",
+          "astId": 41,
+          "type": "t_mapping<t_bool>",
+          "src": "802:41:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "minterAllowed",
+          "astId": 45,
+          "type": "t_mapping<t_uint256>",
+          "src": "850:50:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "blacklisted",
+          "astId": 49,
+          "type": "t_mapping<t_bool>",
+          "src": "907:45:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "initializing",
+          "astId": 121,
+          "type": "t_bool",
+          "src": "1832:25:0"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {},
+  "manifestVersion": "2.2",
+  "version": "1.0.0",
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": {
+      "package": "0x2a9e7B63514438906A83a1e320dBBD814D417002",
+      "version": "3.0.0"
+    }
+  }
+}

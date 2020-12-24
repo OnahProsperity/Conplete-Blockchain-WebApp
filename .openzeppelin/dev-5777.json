@@ -1,0 +1,396 @@
+{
+  "contracts": {
+    "DYCOIN": {
+      "address": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+      "constructorCode": "608060405234801561001057600080fd5b50613df4806100206000396000f3fe",
+      "bodyBytecodeHash": "b88595583cc145013bae6c815f749f0c8c2d88d5cc4e1669ffa1f2e3e7849481",
+      "localBytecodeHash": "334271b1f5eef722e49079467fc76580ec2833d5b9dbdd514005d5f51842f97e",
+      "deployedBytecodeHash": "334271b1f5eef722e49079467fc76580ec2833d5b9dbdd514005d5f51842f97e",
+      "types": {
+        "t_string": {
+          "id": "t_string",
+          "kind": "elementary",
+          "label": "string"
+        },
+        "t_uint8": {
+          "id": "t_uint8",
+          "kind": "elementary",
+          "label": "uint8"
+        },
+        "t_address": {
+          "id": "t_address",
+          "kind": "elementary",
+          "label": "address"
+        },
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_mapping<t_uint256>": {
+          "id": "t_mapping<t_uint256>",
+          "valueType": "t_uint256",
+          "label": "mapping(key => uint256)",
+          "kind": "mapping"
+        },
+        "t_mapping<t_bool>": {
+          "id": "t_mapping<t_bool>",
+          "valueType": "t_bool",
+          "label": "mapping(key => bool)",
+          "kind": "mapping"
+        }
+      },
+      "storage": [
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "name",
+          "astId": 7,
+          "type": "t_string",
+          "src": "349:18:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "symbol",
+          "astId": 9,
+          "type": "t_string",
+          "src": "374:20:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "decimals",
+          "astId": 11,
+          "type": "t_uint8",
+          "src": "401:21:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "currency",
+          "astId": 13,
+          "type": "t_string",
+          "src": "429:22:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "masterMinter",
+          "astId": 15,
+          "type": "t_address",
+          "src": "458:27:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "initialized",
+          "astId": 17,
+          "type": "t_bool",
+          "src": "492:25:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "totalSupply",
+          "astId": 19,
+          "type": "t_uint256",
+          "src": "524:26:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "blacklister",
+          "astId": 21,
+          "type": "t_address",
+          "src": "559:26:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "pauser",
+          "astId": 23,
+          "type": "t_address",
+          "src": "592:21:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "_owner",
+          "astId": 25,
+          "type": "t_address",
+          "src": "620:21:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "_paused",
+          "astId": 27,
+          "type": "t_bool",
+          "src": "648:19:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "balances",
+          "astId": 31,
+          "type": "t_mapping<t_uint256>",
+          "src": "730:43:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "allowed",
+          "astId": 37,
+          "type": "t_mapping<t_uint256>",
+          "src": "780:64:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "minters",
+          "astId": 41,
+          "type": "t_mapping<t_bool>",
+          "src": "851:39:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "minterAllowed",
+          "astId": 45,
+          "type": "t_mapping<t_uint256>",
+          "src": "897:48:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "blacklisted",
+          "astId": 49,
+          "type": "t_mapping<t_bool>",
+          "src": "952:43:0"
+        },
+        {
+          "contract": "DYCOIN",
+          "path": "..\\..\\..\\..\\..\\..\\C\\Users\\ENCRYPTION.001\\Downloads\\Compressed\\New folder (2)\\create\\contracts\\DYCOIN.sol",
+          "label": "initializing",
+          "astId": 121,
+          "type": "t_bool",
+          "src": "1836:25:0"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [],
+        "storageDiff": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "DYCOIN/DYCOIN": [
+      {
+        "address": "0x674D65b49DeB24661EbBE3e10d3467226499F4a3",
+        "version": "1.0.0",
+        "implementation": "0xC7658c0B018825cBBff2859Ae80fbF3C5A389818",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xe340E56952d6b69CB576AeaF529FDa56616d74E1",
+        "version": "1.0.0",
+        "implementation": "0xb14c85232ba01691E54Fd98E3f73Ec211a09b663",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x678BC669C274e2c347eC32e234136E3f95BBb978",
+        "version": "1.0.0",
+        "implementation": "0xb14c85232ba01691E54Fd98E3f73Ec211a09b663",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x75C726D04883CCEA01A6C3798cC990E0812C9160",
+        "version": "1.0.0",
+        "implementation": "0xb14c85232ba01691E54Fd98E3f73Ec211a09b663",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x272BeECa14973d2f89AB1214277522f10f601197",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x49d8720144882972ecF55Cd38821B4D60F4033ad",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x9d0298F594150d6d64f4166ED94B9dd390110098",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x1002A17A6259C014b2C08Fb4698D126F7f2C67a7",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xb6f2B280fC8DCcde3385Ed549fA4bDB97eCb564E",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x89F14055539b9a838A0AA32A16cEB1f2036dA524",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x750EFe7C822DbE68878136c214428Ad297367D6b",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x5314D23455e32541a50fC48DaD1Fd83ABB4D2F2B",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xE952553787BB28E43e7E844C1FdF99FaC0CfE5Fd",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x3B22a421795B27F63D4EeA64D81157F2DB0083cd",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x879AE0DAaFAbf13728D24049c044b77C39dDBcdc",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x77595b5045E3423c177f141369Cd4d2D2CEE3b02",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x56FAc82f5c3508F07b225650F6E5883e7b905102",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xace450fA22Da06d6Dc51a6F9f39cDE284e33E331",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x21c4962373D53a4B2Ee513ca50b6E3c8111c38e4",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x211DB0192E0B37197A590976acB540FC4aCb97b0",
+        "version": "1.0.0",
+        "implementation": "0x9F2b727B3b3Fbf15F3Dd9C66966B316a64F7cA33",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x85b8d010978BCe4884851DD6e272A81502502808",
+        "version": "1.0.0",
+        "implementation": "0x9B7465EB4cCe73CBCCA34AbE1e3c2F5cecAaC0C5",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x93E89d6D48970622c6359d397ed652FdB364C511",
+        "version": "1.0.0",
+        "implementation": "0x9B7465EB4cCe73CBCCA34AbE1e3c2F5cecAaC0C5",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xaF1ffA8E784A0F05DaE11d6645bd0ff52160292d",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x3D53e8B1222969068a854C771c7fbfA70337508e",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xAE03CB9c0220E5Afd863E78bb6413A3E59ec6453",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x6777c602c057883fe7feDbAb6a4c48D2A516bbAd",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x2C89E1bBED413cA7548DEb3f7a9e627781823e82",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      }
+    ]
+  },
+  "manifestVersion": "2.2",
+  "version": "1.0.0",
+  "proxyAdmin": {
+    "address": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e"
+  }
+}

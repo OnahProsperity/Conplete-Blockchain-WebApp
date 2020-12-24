@@ -1,0 +1,17 @@
+{
+  "manifestVersion": "2.2",
+  "contracts": {
+    "DYCOIN": "DYCOIN"
+  },
+  "dependencies": {},
+  "name": "DYCOIN",
+  "version": "1.0.0",
+  "compiler": {
+    "compilerSettings": {
+      "optimizer": {}
+    },
+    "typechain": {
+      "enabled": false
+    }
+  }
+}
