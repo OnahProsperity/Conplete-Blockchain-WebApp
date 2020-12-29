@@ -22,9 +22,11 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 // const infuraKey = "5745cb1c77d54ddcbd36d4788b1b621c";
 //
 // const fs = require('fs');
+const path = require("path");
 const mnemonic = "cage depth depend alley usual fade verify arrive foot egg chest you";
 
 module.exports = {
+   contracts_build_directory: path.join(__dirname, "client/src/contracts"),
   /**
    * Networks define how you connect to your ethereum client and let you set the
    * defaults web3 uses to send transactions. If you don't specify one truffle

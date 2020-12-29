@@ -10,7 +10,7 @@ async function deploy(options) {
 module.exports = function(deployer, networkName, accounts) {
   deployer.then(async () => {
     const { network, txParams } = await ConfigManager.initNetworkConfiguration({ network: networkName, from: accounts[0] })
-    await deploy({ network, txParams }, 10000000)
+    await deploy({ network, txParams })
 
     
   })

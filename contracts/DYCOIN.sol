@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
 // Import base Initializable contract
@@ -16,7 +17,7 @@ contract DYCOIN {
     string public currency;
     address public masterMinter;
     bool internal initialized;
-    uint256 public totalSupply;
+    uint256 private totalSupply;
 
     address public blacklister;
     address public pauser;
@@ -92,22 +93,24 @@ contract DYCOIN {
         address newBlacklister
         )
         public initializer {
-        require(initialized, "DYCOIN: contract is already initialized");
+        // require(!initialized, "DYCOIN: contract is already initialized");
         require(newMasterMinter != address(0), "DYCOIN: new masterMinter is the zero address");
         require(newPauser != address(0), "FiatToken: new pauser is the zero address");
         require(newBlacklister != address(0), "FiatToken: new blacklister is the zero address");
         require(newOwner != address(0), "FiatToken: new owner is the zero address");
+
         name = tokenName;
         symbol = tokenSymbol;
         currency = tokenCurrency;
         decimals = tokenDecimals;
         masterMinter = newMasterMinter;
         totalSupply = _totalSupply;
+        _totalSupply = balances[msg.sender];
         _owner = newOwner;
         pauser = newPauser;
         blacklister = newBlacklister;
         initialized = true;
-        // balanceOf[msg.sender] = _totalSupply;
+        
     }
     
     modifier onlyMasterMinter() {

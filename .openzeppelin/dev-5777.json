@@ -385,6 +385,160 @@
         "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
         "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
         "kind": "Upgradeable"
+      },
+      {
+        "address": "0xc01A5ecE387CD37C99C4B2f840139AD4a0094229",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x789cC38F6d82309B64Ad76071918366f9BdD0317",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x3b40A7c64209BA84D32d220967950AC9cb5a00F1",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xd210F19d3C1403660fd8fF0b24Bb1C62596e1E9d",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x90F8707a0cad116BC34c98a730adfCA87c057579",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xF1A6faEddffD561dD169f4d871517D3b3a2053a3",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xc94D70aF1C7E31573F7de55B995ecdd7C208faD5",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x212DF51f6c65b256cA684a48Aab37D6E49341b3a",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x0b4c2dA136D328d1C15e4Ecc24B0647651CA008e",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x3247702a9107DBa37545d8C562c9366405eB4B35",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x6Cb12D97F79D8BaCc7602aaFD77b2087F96C2380",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xdEAA729532C98756E05391a43e5C4Bc0c186c1C1",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x03Adb6cEa8c09C8F632d9A6Ab2206c5bf8002Ea7",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x2d55B3D1A95E824F581E27ff5A7e42A33CFC553f",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xfE55C831285aaCBDEF8b4e47a3eE8688834AC9e0",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x2625F8296ca5E49Ad411B3FF12E68368fC24BE01",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x1f4857cE4db02B41478589c7A72b45732f84bD62",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x47f1bF482681bFc5108945bBD8A3AC7349dBE2fa",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x4dA978f2b171FD7A47eF9A0b3Da5454AB7259642",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x6776E56Bc6FB4b2b56196d46b0ddB6C3F8E68050",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xE3Cb161cC01E4ac3851Df60d8C3Df3AA5d3DD344",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0xEe7e40847b45385D6d689ED009627A87aE4B1478",
+        "version": "1.0.0",
+        "implementation": "0x706d39cB9387b820052b8A38a2950Ae8e2ED1443",
+        "admin": "0x8cb779d6615877740DA5F00CcC6EB2DeB258dD2e",
+        "kind": "Upgradeable"
       }
     ]
   },
